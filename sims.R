@@ -123,7 +123,7 @@ colnames(res0)=K0
 res1=matrix(rep(0,length(K1)*N),ncol=length(K1))
 colnames(res1)=K1
 
-seed=10
+set.seed=1
 
 for(i in 1:N)
 {
